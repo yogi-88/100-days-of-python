@@ -19,4 +19,13 @@ syntax:
 ```
 
 ### ref links
+```
 pythontutor.com
+https://developers.google.com/edu/python/
+```
+## Day 10 Functions with Outputs
+
+```
+Create your own calculator
+
+```
