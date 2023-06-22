@@ -7,6 +7,7 @@ bid_records = {}
 should_repeat = True
 
 def highest_bidder_finder(bid_records):
+
     highest_bid = 0
     winner = ""
     for bidder in bid_records:
@@ -15,6 +16,7 @@ def highest_bidder_finder(bid_records):
             highest_bid = bid_amount
             winner = bidder
     print(f"The winner is {winner} with a highest bid of ${bid_amount}")
+
 
 while should_repeat:
     user_name = input("What is your name?:  ")
